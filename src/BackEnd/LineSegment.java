@@ -35,10 +35,10 @@ public class LineSegment extends shapes {
 
     @Override
     public void move(int newx, int newy) {
-        int dx = Math.abs(newx - this.getposition().x);
-        int dy = Math.abs(newy - this.getposition().y);
+        int dx = newx - this.getposition().x;
+        int dy = newy - this.getposition().y;
         this.setPosition(new Point(newx, newy));
-        this.setEndPoint(new Point(this.getEndPoint().x += dx, this.getEndPoint().y += dy));
+        this.setEndPoint(new Point(this.getEndPoint().x + dx, this.getEndPoint().y + dy));
     }
     @Override
     public String tostring() {
