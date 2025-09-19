@@ -117,43 +117,31 @@ mini-paint-app/
 ## Screenshots
 
 ### Main Interface
-![Main Interface](screenshots/main-interface.png)
+![Main Interface](src/screenshots/main-interface.png)
 *Caption: The main application window showing the drawing canvas and available tools.*
 
 ### Save and Load Windows
-![Save Window](screenshots/save-window.png)
+![Save Window](src/screenshots/save-window.png)
 *Caption: Save dialog window for exporting drawings to file.*
 
-![Load Window](screenshots/load-window.png)
+![Load Window](src/screenshots/load-window.png)
 *Caption: Load dialog window for importing previously saved drawings.*
 
 ### Recolor Window
-![Recolor Window](screenshots/recolor-window.png)
+![Recolor Window](src/screenshots/recolor-window.png)
 *Caption: Color selection window for changing shape colors.*
 
 ### Move Window
-![Move Window](screenshots/move-window.png)
+![Move Window](src/screenshots/move-window.png)
 *Caption: Interface showing shape movement functionality.*
 
 ### Resize Window
-![Resize Window](screenshots/resize-window.png)
+![Resize Window](src/screenshots/resize-window.png)
 *Caption: Window demonstrating shape resizing controls and options.*
 
 ### Drawing Example
-![Drawing with Shape](screenshots/drawing-example.png)
+![Drawing with Shape](src/screenshots/drawing-example.png)
 *Caption: Application window after drawing a shape, showing the canvas with a created shape.*
-
-**To add these screenshots to your README:**
-
-1. Create a `screenshots` folder in your project root directory
-2. Take screenshots of each window/functionality and save them with these names:
-   - `main-interface.png`
-   - `save-window.png`
-   - `load-window.png`
-   - `recolor-window.png`
-   - `move-window.png`
-   - `resize-window.png`
-   - `drawing-example.png`
 
 ## Future Enhancements
 - Additional shape types (ellipses, polygons)
@@ -164,8 +152,4 @@ mini-paint-app/
 - Shape grouping and ungrouping
 - Grid and snap-to-grid functionality
 
-## Contributing
-Feel free to fork this project and submit pull requests for any improvements or bug fixes.
 
-## License
-This project is open source and available under the [MIT License](LICENSE).
