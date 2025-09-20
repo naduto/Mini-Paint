@@ -70,14 +70,14 @@ A simple yet powerful drawing application built with pure Java, featuring an int
 3. Release to finalize the shape
 
 ### Manipulating Shapes
-- **To Move**: Click and drag the shape to a new position
+- **To Move**: Select the shape you want to move from the menu and then choose the destination 
 - **To Resize**: Select the shape and use resize handles or controls
 - **To Recolor**: Select the shape and choose a new color from the color palette
-- **To Delete**: Select the shape and press delete or use the delete button
+- **To Delete**: Select the shape and use the delete button
 
 ### File Operations
-- **Save**: Go to File → Save to export your drawing
-- **Load**: Go to File → Load to import a previously saved drawing
+- **Save**: press on the save button and choose where you want to save you drawing 
+- **Load**: press on load button and search for the draw you want to load from your PC
 
 ## File Format
 The application uses a custom file format to store:
