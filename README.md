@@ -90,27 +90,27 @@ The application uses a custom file format to store:
 ## Project Structure
 ```
 mini-paint-app/
-├── BackEnd/                   # Backend logic and operations
-├── FrontEnd/                  # GUI components and user interface
-├── Interfaces/                # Interface definitions for OOP design
 ├── src/
-│   ├── MoveShapee.java       # Shape movement functionality
-│   ├── Paint.java            # Main paint application logic
-│   ├── ResizeCircle.java     # Circle resizing operations
-│   ├── ResizeLineSegment.java # Line segment resizing
-│   ├── ResizeRectangle.java  # Rectangle resizing operations
-│   ├── ResizeSquare.java     # Square resizing operations
-│   ├── ResizeTriangle.java   # Triangle resizing operations
-│   ├── Circle.java           # Circle shape implementation
-│   ├── DrawingEngines.java   # Drawing engine logic
-│   ├── LineSegment.java      # Line segment implementation
-│   ├── Rectangle.java        # Rectangle shape implementation
-│   ├── shapes.java           # Base shapes functionality
-│   ├── Square.java           # Square shape implementation
-│   ├── Triangle.java         # Triangle shape implementation
-│   ├── DrawingEngine.java    # Core drawing engine
-│   └── Shape.java            # Base shape class/interface
-├── saved_drawings/           # Default save directory
+│   ├── BackEnd/                    # Backend logic and operations
+│   │   ├── Circle.java            # Circle shape implementation
+│   │   ├── DrawingEngines.java    # Drawing engine logic
+│   │   ├── LineSegment.java       # Line segment implementation
+│   │   ├── Rectangle.java         # Rectangle shape implementation
+│   │   ├── shapes.java            # Base shapes functionality
+│   │   ├── Square.java            # Square shape implementation
+│   │   └── Triangle.java          # Triangle shape implementation
+│   ├── FrontEnd/                   # GUI components and user interface
+│   │   ├── MoveShapee.java        # Shape movement functionality
+│   │   ├── Paint.java             # Main paint application logic
+│   │   ├── ResizeCircle.java      # Circle resizing operations
+│   │   ├── ResizeLineSegment.java # Line segment resizing
+│   │   ├── ResizeRectangle.java   # Rectangle resizing operations
+│   │   ├── ResizeSquare.java      # Square resizing operations
+│   │   └── ResizeTriangle.java    # Triangle resizing operations
+│   └── Interfaces/                 # Interface definitions for OOP design
+│       ├── DrawingEngine.java     # Core drawing engine interface
+│       └── Shape.java             # Base shape class/interface
+├── screenshots/                    # Application screenshots
 └── README.md
 ```
 
